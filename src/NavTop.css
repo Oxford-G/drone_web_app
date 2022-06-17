@@ -1,0 +1,41 @@
+
+.topNav {
+  /* background-color: rgb(241, 189, 110); */
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: 25px auto 0 auto;
+  padding: 10px 0;
+  align-items: center;
+}
+
+.navUl {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  /* background-color: red; */
+  padding-left: 0;
+}
+
+.navA {
+  text-decoration: none;
+  color: black;
+  font-weight: 300;
+}
+
+.topDiv {
+  width: 15%;
+}
+
+.topImg {
+  width: 100%;
+}
+
+.navLi {
+  margin-right: 35px;
+}
+
+.navLi2 {
+  margin-left: 35px;
+}
