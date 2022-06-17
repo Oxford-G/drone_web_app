@@ -1,23 +1,21 @@
-import logo from './logo.svg';
 import './App.css';
+import drone from './assets/Drone.png'
+import shadow from './assets/Shadow.png'
+import NavTop from './NavTop';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <NavTop />
+      <div>
+        <img src={drone} alt="drone image" />
+      </div>
+      <div>
+        <img src={shadow} alt="shadow image" />
+      </div>
+      <p>
+        <span></span>
+      </p>
     </div>
   );
 }
