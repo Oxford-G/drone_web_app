@@ -9,7 +9,7 @@ const NavTop = () => {
   const [Toggle, setToggle] = useState(false)
 
   const changeBackground = () => {
-    if (window.scrollY >= 200) {
+    if (window.scrollY >= 840) {
       setNavBar(true)
     } else {
       setNavBar(false)
@@ -23,40 +23,42 @@ const NavTop = () => {
   window.addEventListener('scroll', changeBackground)
 
   return (
-    <nav className={navBar ? 'topNav2' : 'topNav' }>
-      <ul className={navBar ? 'hideNav' : 'navUl' }>
-        <li className="navLi"><a className="navA" href="#STORE">STORE</a></li>
-        <li><a className="navA" href="#TUTORIALS">TUTORIALS</a></li>
-      </ul>
+    <div className={navBar ? 'topNav2Color' : 'topNavColor' }>
+      <nav className={navBar ? 'topNav2' : 'topNav' }>
+        <ul className={navBar ? 'hideNav' : 'navUl' }>
+          <li className="navLi"><a className="navA" href="#STORE">STORE</a></li>
+          <li><a className="navA" href="#TUTORIALS">TUTORIALS</a></li>
+        </ul>
 
-      <ul className={navBar ? 'navSocial' : 'hideNav' }>
-        <li className="navLi"><RiFacebookBoxFill className="socialNav"/></li>
-        <li><TbBrandTwitter className="socialNav"/></li>
-      </ul>
+        <ul className={navBar ? 'navSocial' : 'hideNav' }>
+          <li className="navLi"><RiFacebookBoxFill className="socialNav"/></li>
+          <li><TbBrandTwitter className="socialNav"/></li>
+        </ul>
 
-      <div className="topDiv">
-        <a className="navA" href="#HOME">
-          <img className="topImg" src={logo} alt="logo" />
-        </a>
-      </div>
+        <div className="topDiv">
+          <a className="navA" href="#HOME">
+            <img className="topImg" src={logo} alt="logo" />
+          </a>
+        </div>
 
-      <ul className={Toggle ? 'slidingNav' : 'hideNav' }>
-        <li><a className="navA" href="#STORE">STORE</a></li>
-        <li><a className="navA" href="#TUTORIALS">TUTORIALS</a></li>
-        <li><a className="navA" href="#BLOG">BLOG</a></li>
-        <li><a className="navA" href="#CONTACT">CONTACT</a></li>
-      </ul>
+        <ul className={Toggle ? 'slidingNav' : 'hideNav' }>
+          <li><a className="navA" href="#STORE">STORE</a></li>
+          <li><a className="navA" href="#TUTORIALS">TUTORIALS</a></li>
+          <li><a className="navA" href="#BLOG">BLOG</a></li>
+          <li><a className="navA" href="#CONTACT">CONTACT</a></li>
+        </ul>
 
-      <div className={navBar ? 'hamDiv' : 'hideNav' } onClick={toggleNav}>
-        <hr className="hamLine1"/>
-        <hr className="hamLine2"/>
-      </div>
+        <div className={navBar ? 'hamDiv' : 'hideNav' } onClick={toggleNav}>
+          <hr className="hamLine1"/>
+          <hr className="hamLine2"/>
+        </div>
 
-      <ul className={navBar ? 'hideNav' : 'navUl' }>
-        <li><a className="navA" href="#BLOG">BLOG</a></li>
-        <li className="navLi2"><a className="navA" href="#CONTACT">CONTACT</a></li>
-      </ul>
-    </nav>
+        <ul className={navBar ? 'hideNav' : 'navUl' }>
+          <li><a className="navA" href="#BLOG">BLOG</a></li>
+          <li className="navLi2"><a className="navA" href="#CONTACT">CONTACT</a></li>
+        </ul>
+      </nav>
+    </div>
   )
 }
 
