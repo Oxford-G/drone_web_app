@@ -1,8 +1,9 @@
 import './NavTop.css';
-import logo from './assets/Logo.png'
+import logo from './assets/Logo.png';
+import logo2 from './assets/LogoWhite.png';
 import { useState } from 'react';
-import {TbBrandTwitter} from 'react-icons/tb'
-import {RiFacebookBoxFill} from 'react-icons/ri'
+import {TbBrandTwitter} from 'react-icons/tb';
+import {RiFacebookBoxFill} from 'react-icons/ri';
 
 const NavTop = () => {
   const [navBar, setNavBar] = useState(false)
@@ -11,6 +12,8 @@ const NavTop = () => {
   const changeBackground = () => {
     if (window.scrollY >= 840) {
       setNavBar(true)
+    } else if (window.scrollY >= 950 && window.scrollY <= 1000) {
+      setNavBar('navImgBlack')
     } else {
       setNavBar(false)
     }
@@ -35,9 +38,12 @@ const NavTop = () => {
           <li><TbBrandTwitter className="socialNav"/></li>
         </ul>
 
-        <div className="topDiv">
-          <a className="navA" href="#HOME">
+        <div className='topDiv'>
+          <a className={ navBar === 'navImgBlack' ? 'hideNav' : 'navA' } href="#HOME">
             <img className="topImg" src={logo} alt="logo" />
+          </a>
+          <a className={ navBar === 'navImgBlack' ? 'navImgBlack' : 'hideNav' } href="#HOME">
+            <img className="topImg" src={logo2} alt="logo" />
           </a>
         </div>
 

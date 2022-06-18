@@ -51,6 +51,12 @@
   font-weight: 300;
 }
 
+.navImgBlack {
+  text-decoration: none;
+  color: black;
+  font-weight: 300;
+}
+
 .topDiv {
   width: 15%;
 }
