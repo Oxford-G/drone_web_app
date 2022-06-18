@@ -4,9 +4,24 @@
   display: flex;
   justify-content: space-between;
   width: 90%;
-  margin: 25px auto 0 auto;
-  padding: 10px 0;
+  margin: 0 auto 0 auto;
+  background-color: rgb(244, 241, 237);
   align-items: center;
+  padding-top: 30px;
+  position: sticky;
+  top: 0;
+}
+
+.topNav2 {
+  display: flex;
+  justify-content: space-between;
+  width: 95%;
+  margin: 0 auto 0 auto;
+  background-color: rgb(244, 241, 237);
+  align-items: center;
+  padding-top: 30px;
+  position: sticky;
+  top: 0;
 }
 
 .navUl {
@@ -38,4 +53,42 @@
 
 .navLi2 {
   margin-left: 35px;
+}
+
+.hideNav {
+  display: none;
+}
+
+.navSocial {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  /* background-color: red; */
+  padding-left: 0;
+}
+
+.socialNav {
+  width: 50px;
+  background-color: rgb(244, 241, 237);
+  /* color: #f4f1ed; */
+}
+
+.hamDiv {
+  width: 40px;
+  cursor: pointer;
+}
+
+.hamLine1 {
+  /* width: 90%; */
+  color: #f76e24;
+}
+
+.hamLine2 {
+  margin-right: 15px;
+  color: #f76e24;
+}
+
+.slidingNav {
+  background-color: greenyellow;
 }

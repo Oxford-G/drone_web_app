@@ -1,0 +1,34 @@
+
+.droneDiv {
+  width: 40%;
+  /* height: 50%; */
+  margin: 40px auto 0 auto;
+}
+
+.heroDiv {
+  background-color: rgb(244, 241, 237);
+  /* height: 142vh; */
+  /* height: 900px; */
+}
+
+.droneImg {
+  width: 100%;
+}
+
+.shadowDiv {
+  width: 30%;
+  margin: -19px auto 0 auto;
+}
+
+.shadowImg {
+  width: 100%;
+}
+
+.heroText {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.hero {
+  width: 100%;
+}
