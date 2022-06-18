@@ -8,8 +8,8 @@
   background-color: rgb(244, 241, 237);
   align-items: center;
   padding-top: 30px;
-  position: sticky;
-  top: 0;
+  /* position: sticky;
+  top: 0; */
 }
 
 .topNav2 {
@@ -17,11 +17,23 @@
   justify-content: space-between;
   width: 95%;
   margin: 0 auto 0 auto;
-  background-color: rgb(244, 241, 237);
+  /* background-color: rgb(244, 241, 237); */
   align-items: center;
   padding-top: 30px;
+  /* position: sticky;
+  top: 0; */
+  /* z-index: 1; */
+}
+
+.topNavColor {
   position: sticky;
   top: 0;
+}
+.topNav2Color {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: rgb(250, 250, 250);
 }
 
 .navUl {
@@ -69,7 +81,7 @@
 }
 
 .socialNav {
-  width: 50px;
+  /* width: 50px; */
   background-color: rgb(244, 241, 237);
   /* color: #f4f1ed; */
 }
