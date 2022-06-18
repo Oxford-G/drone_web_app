@@ -1,0 +1,110 @@
+.leftHrStick {
+  /* background-color: gold; */
+  width: fit-content;
+  position: absolute;
+  transform: rotate(-90deg);
+  /* left: -150px;
+  bottom: 150px; */
+  font-size: 10px;
+  margin: 0;
+  letter-spacing: 2px;
+  left: -14%;
+  bottom: 26%;
+  color: rgb(205, 201, 197);
+}
+
+.tutorialBody {
+  display: flex;
+  width: 85%;
+  margin: 0 auto;
+  justify-content: center;
+  /* background-color: yellow; */
+  height: 360px;
+  padding: 140px 0;
+  position: relative;
+  z-index: 0;
+}
+
+.tutorialCap {
+  /* background-color: bisque; */
+  width: 40%;
+}
+
+.tutorialH3 {
+  /* background-color: blanchedalmond; */
+  font-size: 40px;
+  margin: 0;
+  font-weight: 400;
+}
+
+.tutorialH3Line {
+  width: 20%;
+  margin: -3px 0 0 0;
+}
+
+.tutorialH3Line > hr {
+  background-color: #f16b22;
+  padding: 1px;
+  border: none;
+}
+
+.tutorialP {
+  /* background-color: royalblue; */
+  line-height: 36px;
+  width: 80%;
+  color: rgb(205, 201, 197);
+}
+
+.tutorialImgCon {
+  width: 50%;
+  text-align: center;
+}
+
+.tutorialImg {
+  /* background-color: aquamarine; */
+  height: 98%;
+  margin-left: 20px;
+}
+
+.tutorialImg > img {
+  width: 80%;
+  height: 100%;
+}
+
+.tutorialImg2 {
+  margin-top: -10px;
+}
+
+.tutorialImg2 > img {
+  width: 65%;
+}
+
+.rightHrStick {
+  width: 10%;
+  display: flex;
+  position: absolute;
+  transform: rotate(90deg);
+  top: 50%;
+  right: -10%;
+}
+
+.rightHrStick1 {
+  background-color: #f16b22;
+  padding: 1px;
+  border: none;
+  width: 30%;
+}
+
+.rightHrStick2 {
+  background-color: #110d0a2e;
+  padding: 1px;
+  border: none;
+  width: 30%;
+}
+
+.rightHrStick3 {
+  background-color: #110d0a2e;
+  padding: 1px;
+  border: none;
+  width: 30%;
+}
