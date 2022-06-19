@@ -10,13 +10,13 @@ const NavTop = () => {
   const [Toggle, setToggle] = useState(false)
 
   const changeBackground = () => {
-    if (window.scrollY >= 840) {
+    if ((window.scrollY >= 830) && (window.scrollY <= 1470)) {
       setNavBar(true)
-    } else if (window.scrollY >= 950 && window.scrollY <= 1000) {
+    } else if (window.scrollY >= 1471) {
       setNavBar('navImgBlack')
     } else {
       setNavBar(false)
-    }
+    } 
   }
 
   const toggleNav = () => {
@@ -26,16 +26,20 @@ const NavTop = () => {
   window.addEventListener('scroll', changeBackground)
 
   return (
-    <div className={navBar ? 'topNav2Color' : 'topNavColor' }>
+    <div className={navBar === true ? 'topNav2Color' : navBar === 'navImgBlack' ? 'topNav3Color' : 'topNavColor' }>
       <nav className={navBar ? 'topNav2' : 'topNav' }>
         <ul className={navBar ? 'hideNav' : 'navUl' }>
           <li className="navLi"><a className="navA" href="#STORE">STORE</a></li>
           <li><a className="navA" href="#TUTORIALS">TUTORIALS</a></li>
         </ul>
 
-        <ul className={navBar ? 'navSocial' : 'hideNav' }>
-          <li className="navLi"><RiFacebookBoxFill className="socialNav"/></li>
-          <li><TbBrandTwitter className="socialNav"/></li>
+        <ul className={ navBar ? 'navSocial' : 'hideNav' }>
+          <li className="navLi">
+            <RiFacebookBoxFill className="socialNav"/>
+          </li>
+          <li>
+            <TbBrandTwitter className="socialNav"/>
+          </li>
         </ul>
 
         <div className='topDiv'>
