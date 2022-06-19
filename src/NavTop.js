@@ -12,8 +12,10 @@ const NavTop = () => {
   const changeBackground = () => {
     if ((window.scrollY >= 830) && (window.scrollY <= 1470)) {
       setNavBar(true)
-    } else if (window.scrollY >= 1471) {
+    } else if ((window.scrollY >= 1471) && (window.scrollY <= 2200)) {
       setNavBar('navImgBlack')
+    } else if (window.scrollY >= 2201) {
+      setNavBar(true)
     } else {
       setNavBar(false)
     } 
