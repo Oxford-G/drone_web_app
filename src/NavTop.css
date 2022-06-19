@@ -5,7 +5,7 @@
   justify-content: space-between;
   width: 90%;
   margin: 0 auto 0 auto;
-  background-color: rgb(244, 241, 237);
+  /* background-color: rgb(244, 241, 237); */
   align-items: center;
   padding-top: 30px;
   /* position: sticky;
@@ -19,7 +19,7 @@
   margin: 0 auto 0 auto;
   /* background-color: rgb(244, 241, 237); */
   align-items: center;
-  padding-top: 30px;
+  padding-top: 5px;
   /* position: sticky;
   top: 0; */
   /* z-index: 1; */
@@ -28,12 +28,21 @@
 .topNavColor {
   position: sticky;
   top: 0;
+  background-color: rgb(244, 241, 237);
 }
+
 .topNav2Color {
   position: sticky;
   top: 0;
   z-index: 1;
   background-color: rgb(250, 250, 250);
+}
+
+.topNav3Color {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: #040404;
 }
 
 .navUl {
@@ -46,6 +55,12 @@
 }
 
 .navA {
+  text-decoration: none;
+  color: black;
+  font-weight: 300;
+}
+
+.navImgBlack {
   text-decoration: none;
   color: black;
   font-weight: 300;
@@ -82,8 +97,9 @@
 
 .socialNav {
   /* width: 50px; */
-  background-color: rgb(244, 241, 237);
+  /* background-color: rgb(244, 241, 237); */
   /* color: #f4f1ed; */
+  color: rgb(106, 105, 103);
 }
 
 .hamDiv {
