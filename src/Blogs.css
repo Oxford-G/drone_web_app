@@ -72,24 +72,17 @@
 }
 
 .rightBrStick1 {
-  background-color: #ffffff;
   padding: 1px;
   border: none;
   width: 30%;
 }
 
-.rightBrStick2 {
+.brColor2 {
   background-color: #f16b22;
-  padding: 1px;
-  border: none;
-  width: 30%;
 }
 
-.rightBrStick3 {
+.brColor1 {
   background-color: #ffffff;
-  padding: 1px;
-  border: none;
-  width: 30%;
 }
 
 .blogsFooter {
@@ -116,4 +109,54 @@
   margin: -8px 0 0 0;
   font-size: 15px;
   color: #aca8a5;
+}
+
+.remotessBody {
+  background-color: #ffffff;
+}
+
+.remotesP {
+  line-height: 26px;
+  width: 80%;
+  color: rgb(205, 201, 197);
+}
+
+.remotesImgCon {
+  width: 60%;
+  /* background-color: blue; */
+  text-align: center;
+}
+
+.remotesImgCon > img {
+  width: 100%;
+  /* height: 80%; */
+}
+
+.rightBrStick {
+  top: 50%;
+}
+
+.brColor3 {
+  background-color: #110d0a2e;
+}
+
+.brColor4 {
+  background-color: #f16b22;
+}
+
+.blogsBody3 {
+  padding: 100px 0;
+  justify-content: normal;
+}
+
+.blogsH3Color {
+  color: #000000;
+}
+
+.blogsCap {
+  margin-top: 90px;
+}
+
+.leftBrStickB {
+  bottom: 42%;
 }
