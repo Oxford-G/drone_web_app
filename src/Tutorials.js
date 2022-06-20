@@ -4,7 +4,7 @@ import shadow from './assets/Shadow.png'
 
 const Tutorials = () => {
   return (
-    <div className="tutorialBody">
+    <div id="STORE" className="tutorialBody">
       <p className="leftHrStick">
         F-210 PERFORMANCE RACING DRONE
       </p>

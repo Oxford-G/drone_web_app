@@ -4,6 +4,7 @@ import logo2 from './assets/LogoWhite.png';
 import { useState } from 'react';
 import {TbBrandTwitter} from 'react-icons/tb';
 import {RiFacebookBoxFill} from 'react-icons/ri';
+import {motion} from 'framer-motion';
 
 const NavTop = () => {
   const [navBar, setNavBar] = useState(false)
@@ -14,9 +15,9 @@ const NavTop = () => {
       setNavBar(true)
     } else if ((window.scrollY >= 1471) && (window.scrollY <= 2200)) {
       setNavBar('navImgBlack')
-    } else if ((window.scrollY >= 2201) && (window.scrollY <= 3100)) {
+    } else if ((window.scrollY >= 2201) && (window.scrollY <= 2950)) {
       setNavBar(true)
-    } else if (window.scrollY >= 3101) {
+    } else if (window.scrollY >= 2951) {
       setNavBar('navImgBrown')
     }else {
       setNavBar(false)
@@ -27,7 +28,12 @@ const NavTop = () => {
     setToggle(!Toggle)
   }
 
+  const closeMenu = () => setToggle(false)
+
   window.addEventListener('scroll', changeBackground)
+
+  const animateFrom = {opacity: 0, y: -40}
+  const animateTo = {opacity: 1, y: 0}
 
   return (
     <div className={navBar === true ? 'topNav2Color' : navBar === 'navImgBlack' 
@@ -56,12 +62,39 @@ const NavTop = () => {
           </a>
         </div>
 
-        <ul className={Toggle ? 'slidingNav' : 'hideNav' }>
-          <li><a className="navA" href="#STORE">STORE</a></li>
-          <li><a className="navA" href="#TUTORIALS">TUTORIALS</a></li>
-          <li><a className="navA" href="#BLOG">BLOG</a></li>
-          <li><a className="navA" href="#CONTACT">CONTACT</a></li>
-        </ul>
+        
+          <ul className={Toggle ? 'slidingNav' : 'hideNav'}>
+            <ul className={navBar ? 'slidingDiv' : 'hideNav' }>
+              <motion.li 
+                initial={animateFrom}
+                animate={animateTo}
+                transition={{delay: 0.05}}
+                onClick={closeMenu}>
+                <a className="navB" href="#STORE">STORE</a>
+              </motion.li>
+              <motion.li 
+                initial={animateFrom}
+                animate={animateTo}
+                transition={{delay: 0.10}}
+                onClick={closeMenu}>
+                <a className="navB" href="#TUTORIALS">TUTORIALS</a>
+              </motion.li>
+              <motion.li 
+                initial={animateFrom}
+                animate={animateTo}
+                transition={{delay: 0.20}}
+                onClick={closeMenu}>
+                <a className="navB" href="#BLOG">BLOG</a>
+              </motion.li>
+              <motion.li 
+                initial={animateFrom}
+                animate={animateTo}
+                transition={{delay: 0.30}}
+                onClick={closeMenu}>
+                <a className="navB" href="#CONTACT">CONTACT</a>
+              </motion.li>
+            </ul>
+          </ul>
 
         <div className={navBar ? 'hamDiv' : 'hideNav' } onClick={toggleNav}>
           <hr className="hamLine1"/>

@@ -126,4 +126,29 @@
 
 .slidingNav {
   background-color: greenyellow;
+  font-size: 15px;
+  /* display: flex; */
+  position: absolute;
+  right: 12%;
+  bottom: 5px;
+  /* justify-content: space-around; */
+  /* width: 20%;
+  font-weight: 600; */
+}
+
+.slidingDiv {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  width: 100%;
+  /* font-weight: 600; */
+}
+
+.navB {
+  text-decoration: none;
+  color: rgb(106, 105, 103);
+}
+
+.slidingNav a:hover {
+  color: #f76e24;
 }

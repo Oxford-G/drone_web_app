@@ -3,7 +3,7 @@ import './Contact.css';
 
 const Contact = () => {
   return (
-    <div className="formCon">
+    <div id="CONTACT" className="formCon">
       <form action='#'>
         <label htmlFor='fullname'>FULL NAME</label>
           <input type="text" id="full-name" placeholder="Enter your full name" required />
