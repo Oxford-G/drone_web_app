@@ -14,9 +14,11 @@ const NavTop = () => {
       setNavBar(true)
     } else if ((window.scrollY >= 1471) && (window.scrollY <= 2200)) {
       setNavBar('navImgBlack')
-    } else if (window.scrollY >= 2201) {
+    } else if ((window.scrollY >= 2201) && (window.scrollY <= 3100)) {
       setNavBar(true)
-    } else {
+    } else if (window.scrollY >= 3101) {
+      setNavBar('navImgBrown')
+    }else {
       setNavBar(false)
     } 
   }
@@ -28,7 +30,8 @@ const NavTop = () => {
   window.addEventListener('scroll', changeBackground)
 
   return (
-    <div className={navBar === true ? 'topNav2Color' : navBar === 'navImgBlack' ? 'topNav3Color' : 'topNavColor' }>
+    <div className={navBar === true ? 'topNav2Color' : navBar === 'navImgBlack' 
+                      ? 'topNav3Color' : navBar === 'navImgBrown' ? 'topNav4Color' : 'topNavColor'}>
       <nav className={navBar ? 'topNav2' : 'topNav' }>
         <ul className={navBar ? 'hideNav' : 'navUl' }>
           <li className="navLi"><a className="navA" href="#STORE">STORE</a></li>
