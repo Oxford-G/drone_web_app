@@ -32,3 +32,21 @@
 .hero {
   width: 100%;
 }
+
+@media (max-width: 768px) {
+  .droneDiv {
+    width: 80%;
+    margin: -80px auto 0 auto;
+    padding-top: 140px;
+  }
+
+  .shadowDiv {
+    width: 70%;
+    margin: -19px auto 0 auto;
+  }
+
+  .heroText {
+    width: 90%;
+    margin: 0 auto;
+  }
+}

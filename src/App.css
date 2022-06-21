@@ -1,3 +1,18 @@
 .App {
-  position: relative;
+  /* position: relative; */
+  background-color: #fff;
+}
+
+.mobileNav {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .desktopNav {
+    display: none;
+  }
+
+  .mobileNav {
+    display: block;
+  }
 }
