@@ -1,6 +1,6 @@
-import drone from './assets/Drone.png'
-import shadow from './assets/Shadow.png'
-import heroBody from './assets/whitelabel-f210.png'
+import drone from '../assets/Drone.png'
+import shadow from '../assets/Shadow.png'
+import heroBody from '../assets/whitelabel-f210.png'
 import './Home.css';
 
 const Home = ({closeMenu}) => {

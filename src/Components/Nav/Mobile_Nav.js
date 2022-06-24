@@ -1,5 +1,5 @@
-import logo from './assets/Logo.png';
-import logo2 from './assets/LogoWhite.png';
+import logo from '../assets/Logo.png';
+import logo2 from '../assets/LogoWhite.png';
 import './Mobile_Nav.css';
 
 const MobileNav = ({navBarM, Toggle, toggleNav, closeMenu}) => {

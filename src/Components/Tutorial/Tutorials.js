@@ -1,6 +1,6 @@
 import './Tutorials.css'
-import drone from './assets/Drone.png'
-import shadow from './assets/Shadow.png'
+import drone from '../assets/Drone.png'
+import shadow from '../assets/Shadow.png'
 
 const Tutorials = ({closeMenu}) => {
   return (

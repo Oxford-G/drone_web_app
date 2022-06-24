@@ -110,7 +110,7 @@
   color: #f76e24;
 }
 
-.slidingNav {
+.slidingNavT {
   font-size: 95%;
   position: absolute;
   right: 1%;
@@ -120,7 +120,7 @@
   height: 190%;
 }
 
-.slidingDiv {
+.slidingDivT {
   display: flex;
   justify-content: space-around;
   list-style: none;
@@ -131,11 +131,11 @@
   background-color: #8181;
 }
 
-.navB {
+.navBT {
   text-decoration: none;
   color: rgb(240, 108, 36);
 }
 
-.slidingNav a:hover {
-  color: #f76e24;
+.slidingNavT a:hover {
+  color: rgb(106, 105, 103);
 }

@@ -1,5 +1,5 @@
-import BlogImg from './assets/camera.png';
-import RemoteImg from './assets/Remote.png';
+import BlogImg from '../assets/camera.png';
+import RemoteImg from '../assets/Remote.png';
 import './Blogs.css';
 
 const Blogs = ({closeMenu}) => {

@@ -1,12 +1,12 @@
 import { useState } from 'react';
 import './App.css';
-import Home from "./Home";
-import Blogs from './Blogs';
-import NavTop from './NavTop';
-import Contact from './Contact';
-import MobileNav from './Mobile_Nav';
-import TabletNav from './TabletNav';
-import Tutorials from './Tutorials';
+import Home from "./Home/Home";
+import Blogs from './Blog/Blogs';
+import NavTop from './Nav/NavTop';
+import Contact from './Contacts/Contact';
+import MobileNav from './Nav/Mobile_Nav';
+import TabletNav from './Nav/TabletNav';
+import Tutorials from './Tutorial/Tutorials';
 
 const App = () => {
 
@@ -30,11 +30,11 @@ const App = () => {
   }
 
   const changeBackgroundTablet = () => {
-    if ((window.scrollY >= 510) && (window.scrollY <= 1091)) {
+    if ((window.scrollY >= 595) && (window.scrollY <= 1151)) {
       setNavBarT(true)
-    } else if ((window.scrollY >= 1092) && (window.scrollY <= 1850)) {
+    } else if ((window.scrollY >= 1152) && (window.scrollY <= 1850)) {
       setNavBarT('navImgBlack')
-    } else if ((window.scrollY >= 1851) && (window.scrollY <= 2200)) {
+    } else if (window.scrollY >= 1851) {
       setNavBarT(true)
     } else if (window.scrollY >= 2201) {
       setNavBarT('navImgBrown')
@@ -44,11 +44,11 @@ const App = () => {
   }
 
   const changeBackgroundMobile = () => {
-    if ((window.scrollY >= 510) && (window.scrollY <= 1091)) {
+    if ((window.scrollY >= 510) && (window.scrollY <= 1031)) {
       setNavBarM(true)
-    } else if ((window.scrollY >= 1092) && (window.scrollY <= 1850)) {
+    } else if ((window.scrollY >= 1032) && (window.scrollY <= 1890)) {
       setNavBarM('navImgBlack')
-    } else if ((window.scrollY >= 1851) && (window.scrollY <= 2200)) {
+    } else if (window.scrollY >= 1851) {
       setNavBarM(true)
     } else if (window.scrollY >= 2201) {
       setNavBarM('navImgBrown')
