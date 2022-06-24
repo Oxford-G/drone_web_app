@@ -117,7 +117,7 @@
   color: rgb(106, 105, 103);
 }
 
-.MslidingNav a:hover {
+.MslidingNav > .MslidingDiv > li > a:hover {
   color: #f76e24;
 }
 

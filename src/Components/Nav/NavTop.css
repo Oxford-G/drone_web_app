@@ -115,7 +115,7 @@
   position: absolute;
   right: 12%;
   bottom: 5px;
-  width: 20%;
+  width: 24%;
   padding: 0;
 }
 
@@ -132,7 +132,11 @@
   color: rgb(106, 105, 103);
 }
 
-.slidingNav a:hover {
+.hover > a:hover {
+  color: #f76e24;
+}
+
+.slidingNav > .slidingDiv > li > a:hover {
   color: #f76e24;
 }
 

@@ -10,8 +10,8 @@ const NavTop = ({ navBar, Toggle, toggleNav, closeMenu }) => {
       ? 'topNav3Color desktopNav' : navBar === 'navImgBrown' ? 'topNav4Color desktopNav' : 'topNavColor desktopNav'}>
       <nav className={navBar ? 'topNav2' : 'topNav'}>
         <ul className={navBar ? 'hideNav' : 'navUl'}>
-          <li className="navLi"><a className="navA" href="#STORE">STORE</a></li>
-          <li><a className="navA" href="#TUTORIALS">TUTORIALS</a></li>
+          <li className="navLi hover"><a className="navA" href="#STORE">STORE</a></li>
+          <li className="hover"><a className="navA" href="#TUTORIALS">TUTORIALS</a></li>
         </ul>
 
         <ul className={navBar ? 'navSocial' : 'hideNav'}>
@@ -60,8 +60,8 @@ const NavTop = ({ navBar, Toggle, toggleNav, closeMenu }) => {
         </div>
 
         <ul className={navBar ? 'hideNav' : 'navUl'}>
-          <li><a className="navA" href="#BLOG">BLOG</a></li>
-          <li className="navLi2"><a className="navA" href="#CONTACT">CONTACT</a></li>
+          <li className="hover"><a className="navA" href="#BLOG">BLOG</a></li>
+          <li className="navLi2 hover"><a className="navA" href="#CONTACT">CONTACT</a></li>
         </ul>
       </nav>
     </div>

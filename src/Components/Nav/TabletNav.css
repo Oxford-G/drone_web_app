@@ -136,6 +136,6 @@
   color: rgb(240, 108, 36);
 }
 
-.slidingNavT a:hover {
+.slidingNavT > .slidingDivT > li > a:hover {
   color: rgb(106, 105, 103);
 }
