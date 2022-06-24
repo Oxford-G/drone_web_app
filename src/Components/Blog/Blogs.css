@@ -1,0 +1,408 @@
+.blogsBody2 {
+  display: flex;
+  width: 85%;
+  margin: 0 auto;
+  justify-content: space-between;
+  padding: 100px 0 0 0;
+  position: relative;
+  z-index: 0;
+}
+
+.blogsBody {
+  background-color: #040404;
+}
+
+.leftBrStick {
+  width: fit-content;
+  position: absolute;
+  transform: rotate(-90deg);
+  font-size: 10px;
+  margin: 0;
+  letter-spacing: 2px;
+  left: -14%;
+  bottom: 22%;
+  color: rgb(205, 201, 197);
+}
+
+.blogsImgCon {
+  width: 50%;
+}
+
+.blogsCap {
+  width: 40%;
+  margin-top: 90px;
+}
+
+.blogsH3 {
+  font-size: 40px;
+  margin: 0;
+  font-weight: 400;
+  color: white;
+}
+
+.blogsH3Line {
+  width: 20%;
+  margin: -3px 0 0 0;
+}
+
+.blogsH3Line > hr {
+  background-color: #f16b22;
+  padding: 1px;
+  border: none;
+}
+
+.blogsP {
+  line-height: 36px;
+  width: 80%;
+  color: rgb(205, 201, 197);
+}
+
+.blogsImgCon > img {
+  width: 80%;
+  height: 80%;
+}
+
+
+.rightBrStick {
+  width: 10%;
+  display: flex;
+  position: absolute;
+  transform: rotate(90deg);
+  /* top: 60%; */
+  right: -10%;
+  top: 50%;
+}
+
+.rightBrStick1 {
+  padding: 1px;
+  border: none;
+  width: 30%;
+}
+
+.brColor2 {
+  background-color: #f16b22;
+}
+
+.brColor1 {
+  background-color: #ffffff;
+}
+
+.blogsFooter {
+  display: flex;
+  color: #ffffff;
+  text-align: center;
+  margin: 0 auto;
+  width: 50%;
+  justify-content: space-between;
+  padding-bottom: 4%;
+}
+
+.blogsFooterDiv {
+  width: fit-content;
+}
+
+.blogsFooterP {
+  margin: 0;
+  font-size: 52px;
+  font-weight: 500;
+}
+
+.blogsFooterP1 {
+  margin: -8px 0 0 0;
+  font-size: 15px;
+  color: #aca8a5;
+}
+
+.remotessBody {
+  background-color: #ffffff;
+}
+
+.remotesP {
+  line-height: 26px;
+  width: 80%;
+  color: rgb(205, 201, 197);
+}
+
+.remotesImgCon {
+  width: 60%;
+  /* background-color: blue; */
+  text-align: center;
+}
+
+.remotesImgCon > img {
+  width: 100%;
+  /* height: 80%; */
+}
+
+/* .rightBrStick {
+  top: 50%;
+} */
+
+.brColor3 {
+  background-color: #110d0a2e;
+}
+
+.brColor4 {
+  background-color: #f16b22;
+}
+
+.blogsBody3 {
+  padding: 100px 0;
+  justify-content: normal;
+}
+
+.blogsH3Color {
+  color: #000000;
+}
+
+/* .blogsCap {
+  margin-top: 90px;
+} */
+
+.leftBrStickB {
+  bottom: 42%;
+}
+
+
+@media (max-width: 768px) {
+
+  .blogsBody {
+    background-color: #040404;
+    position: relative;
+    padding-bottom: 8%;
+  }
+
+  .blogsBody2 {
+    display: block;
+    /* width: 85%; */
+    /* margin: 0 auto; */
+    /* justify-content: space-between; */
+    /* padding: 100px 0 0 0; */
+    position: relative;
+    z-index: none;
+    padding-top: 15%;
+  }
+
+  .leftBrStick {
+    display: none;
+  }
+
+  .blogsImgCon {
+    width: 100%;
+  }
+
+  .blogsImgCon > img {
+    width: 80%;
+    height: 80%;
+  }
+
+  .blogsCap {
+    margin-top: 20px;
+    width: 80%;
+  }
+
+  .blogsH3 {
+    font-size: 164%;
+    /* margin: 0; */
+    /* font-weight: 400; */
+    /* color: white; */
+  }
+
+  .blogsH3Line {
+    width: 15%;
+    /* margin: -3px 0 0 0; */
+  }
+
+  .blogsH3Line > hr {
+    background-color: #f16b22;
+    padding: 1px;
+    border: none;
+  }
+
+  .blogsP {
+    line-height: 160%;
+    width: 85%;
+    /* color: rgb(205, 201, 197); */
+    font-size: 92%;
+  }
+
+  .rightBrStick {
+    display: none;
+  }
+
+  .blogsFooter {
+    display: block;
+    /* color: #ffffff; */
+    /* text-align: center; */
+    /* margin: 0 auto; */
+    width: unset;
+    padding-bottom: 0;
+    position: absolute;
+    top: 72%;
+    right: 8%;
+  }
+
+  .blogsFooterDiv {
+    width: fit-content;
+    margin-bottom: 30%;
+  }
+
+  .blogsFooterP {
+    margin: 0;
+    font-size: 210%;
+    font-weight: 500;
+  }
+
+  .blogsFooterP1 {
+    margin: -8px 0 0 0;
+    font-size: 74%;
+    color: #aca8a5;
+  }
+
+  .blogsBody3 {
+    padding: 50px 0;
+    position: relative;
+  }
+
+  .blogsCap2 {
+    width: 100%;
+    padding-top: 100%;
+  }
+
+  .remotesP {
+    line-height: 160%;
+    width: unset;
+    color: rgb(205, 201, 197);
+    font-size: 92%;
+  }
+
+  .remotesImgCon {
+    width: 90%;
+    /* text-align: center; */
+    position: absolute;
+    top: 13%;
+    left: 4%;
+  }
+
+  .rightBrStick {
+    display: none;
+  }
+
+  /* text */
+
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .blogsH3 {
+    font-size: 170%;
+    /* margin: 0;
+    font-weight: 400;
+    color: white; */
+  }
+
+  .blogsH3Line {
+    width: 15%;
+    /* margin: -3px 0 0 0; */
+  }
+
+  .blogsP {
+    line-height: 150%;
+    width: 80%;
+    color: rgb(205, 201, 197);
+    font-size: 95%;
+  }
+
+  .rightBrStick {
+    /* width: 10%;
+    display: flex;
+    position: absolute;
+    transform: rotate(90deg); */
+    top: 50%;
+    right: -8%;
+  }
+
+  .blogsImgCon > img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .leftBrStick {
+    /* width: -moz-fit-content;
+    width: fit-content;
+    position: absolute;
+    transform: rotate(-90deg);
+    font-size: 10px;
+    margin: 0;
+    letter-spacing: 2px; */
+    left: -19%;
+    /* bottom: 22%;
+    color: rgb(205, 201, 197); */
+  }
+
+  .blogsFooterP {
+    /* margin: 0; */
+    font-size: 250%;
+    /* font-weight: 500; */
+  }
+
+  .blogsFooterP1 {
+    /* margin: -8px 0 0 0; */
+    font-size: 80%;
+    /* color: #aca8a5; */
+  }
+
+  .blogsBody2 {
+    /* display: flex;
+    width: 85%;
+    margin: 0 auto;
+    justify-content: space-between; */
+    padding: 100px 0 50px 0;
+    /* position: relative;
+    z-index: 0; */
+  }
+
+  .blogsFooter {
+    /* display: flex;
+    color: #ffffff;
+    text-align: center;
+    margin: 0 auto;
+    width: 50%;
+    justify-content: space-between; */
+    padding-bottom: 8%;
+  }
+
+  .remotesP {
+    line-height: 150%;
+    /* width: 80%;
+    color: rgb(205, 201, 197); */
+    font-size: 95%;
+  }
+
+  .remotesImgCon > img {
+    /* width: 100%;
+    height: 80%; */
+    padding-top: 19%;
+  }
+
+  .blogsBody3 {
+    padding: 20px 0 90px 0;
+    /* justify-content: normal; */
+  }
+
+  .leftBrStick {
+    /* width: fit-content;
+    position: absolute;
+    transform: rotate(-90deg);
+    font-size: 10px; */
+    /* margin: 0;
+    letter-spacing: 2px; */
+    left: -20%;
+    bottom: 29%;
+    /* color: rgb(205, 201, 197); */
+  }
+
+  .leftBrStickB {
+    bottom: 32%;
+  }
+}
+
