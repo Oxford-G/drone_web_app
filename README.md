@@ -10,13 +10,13 @@ This is a responsive web clone app, with a dynamic nav bar inline with White-Lab
 - HTML
 - CSS
 
-## home page:
+## Desktop version:
 ![screenshot](./src/Components/assets/byrdmrDesktop.png)
 
-## home page:
+## Tablet version:
 ![screenshot](./src/Components/assets/byrdmrTablet.png)
 
-## home page:
+## Mobile version:
 ![screenshot](./src/Components/assets/byrdmrMobile.png)
 
 ## Getting Started
