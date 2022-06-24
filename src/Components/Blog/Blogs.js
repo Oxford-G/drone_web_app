@@ -1,11 +1,11 @@
-import BlogImg from './assets/camera.png';
-import RemoteImg from './assets/Remote.png';
+import BlogImg from '../assets/camera.png';
+import RemoteImg from '../assets/Remote.png';
 import './Blogs.css';
 
-const Blogs = () => {
+const Blogs = ({closeMenu}) => {
   return (
     <>
-      <div className="blogsBody">
+      <div id="TUTORIALS" className="blogsBody" onClick={closeMenu}>
         <div className="blogsBody2">
           <p className="leftBrStick">
             F-210 PERFORMANCE RACING DRONE
@@ -49,7 +49,7 @@ const Blogs = () => {
         </div>
       </div>
 
-      <div className="blogsBody2 blogsBody3">
+      <div id="BLOGS" className="blogsBody2 blogsBody3">
         <p className="leftBrStick leftBrStickB">
           F-210 PERFORMANCE RACING DRONE
         </p>

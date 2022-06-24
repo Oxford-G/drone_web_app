@@ -1,15 +1,11 @@
 
 .topNav {
-  /* background-color: rgb(241, 189, 110); */
   display: flex;
   justify-content: space-between;
   width: 90%;
   margin: 0 auto 0 auto;
-  /* background-color: rgb(244, 241, 237); */
   align-items: center;
   padding-top: 30px;
-  /* position: sticky;
-  top: 0; */
 }
 
 .topNav2 {
@@ -17,12 +13,8 @@
   justify-content: space-between;
   width: 95%;
   margin: 0 auto 0 auto;
-  /* background-color: rgb(244, 241, 237); */
   align-items: center;
   padding-top: 5px;
-  /* position: sticky;
-  top: 0; */
-  /* z-index: 1; */
 }
 
 .topNavColor {
@@ -45,12 +37,18 @@
   background-color: #040404;
 }
 
+.topNav4Color {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: rgb(244, 241, 237);
+}
+
 .navUl {
   list-style: none;
   display: flex;
   justify-content: space-between;
   font-size: 16px;
-  /* background-color: red; */
   padding-left: 0;
 }
 
@@ -91,14 +89,10 @@
   display: flex;
   justify-content: space-between;
   font-size: 16px;
-  /* background-color: red; */
   padding-left: 0;
 }
 
 .socialNav {
-  /* width: 50px; */
-  /* background-color: rgb(244, 241, 237); */
-  /* color: #f4f1ed; */
   color: rgb(106, 105, 103);
 }
 
@@ -108,7 +102,6 @@
 }
 
 .hamLine1 {
-  /* width: 90%; */
   color: #f76e24;
 }
 
@@ -118,5 +111,60 @@
 }
 
 .slidingNav {
-  background-color: greenyellow;
+  font-size: 15px;
+  position: absolute;
+  right: 12%;
+  bottom: 5px;
+  width: 20%;
+  padding: 0;
+}
+
+.slidingDiv {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  width: 100%;
+  padding: 0;
+}
+
+.navB {
+  text-decoration: none;
+  color: rgb(106, 105, 103);
+}
+
+.slidingNav a:hover {
+  color: #f76e24;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .navUl {
+    font-size: 14px;
+  }
+
+  .topDiv {
+    width: 22%;
+  }
+
+  .slidingNav {
+    font-size: 95%;
+    position: absolute;
+    right: 1%;
+    width: 25%;
+    top: 45%;
+    height: 190%;
+  }
+
+  .slidingDiv {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 0 0 0 9%;
+    flex-direction: column;
+    height: 100%;
+    background-color: #8181;
+  }
+
+  .navB {
+    color: rgb(240, 108, 36);
+  }
 }

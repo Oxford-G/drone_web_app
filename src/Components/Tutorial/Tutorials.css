@@ -1,0 +1,232 @@
+.leftHrStick {
+  width: fit-content;
+  position: absolute;
+  transform: rotate(-90deg);
+  font-size: 10px;
+  margin: 0;
+  letter-spacing: 2px;
+  left: -14%;
+  bottom: 26%;
+  color: rgb(205, 201, 197);
+}
+
+.tutorialBody {
+  display: flex;
+  width: 85%;
+  margin: 0 auto;
+  justify-content: center;
+  height: 360px;
+  padding: 140px 0;
+  position: relative;
+  z-index: 0;
+}
+
+.tutorialCap {
+  width: 40%;
+}
+
+.tutorialH3 {
+  font-size: 40px;
+  margin: 0;
+  font-weight: 400;
+}
+
+.tutorialH3Line {
+  width: 20%;
+  margin: -3px 0 0 0;
+}
+
+.tutorialH3Line > hr {
+  background-color: #f16b22;
+  padding: 1px;
+  border: none;
+}
+
+.tutorialP {
+  line-height: 36px;
+  width: 80%;
+  color: rgb(205, 201, 197);
+}
+
+.tutorialImgCon {
+  width: 50%;
+  text-align: center;
+}
+
+.tutorialImg {
+  height: 98%;
+  margin-left: 20px;
+}
+
+.tutorialImg > img {
+  width: 80%;
+  height: 100%;
+}
+
+.tutorialImg2 {
+  margin-top: -10px;
+}
+
+.tutorialImg2 > img {
+  width: 65%;
+}
+
+.rightHrStick {
+  width: 10%;
+  display: flex;
+  position: absolute;
+  transform: rotate(90deg);
+  top: 50%;
+  right: -10%;
+}
+
+.rightHrStick1 {
+  background-color: #f16b22;
+  padding: 1px;
+  border: none;
+  width: 30%;
+}
+
+.rightHrStick2 {
+  background-color: #110d0a2e;
+  padding: 1px;
+  border: none;
+  width: 30%;
+}
+
+.rightHrStick3 {
+  background-color: #110d0a2e;
+  padding: 1px;
+  border: none;
+  width: 30%;
+}
+
+@media (max-width: 768px) {
+  .tutorialBody {
+    display: block;
+    height: inherit;
+    padding: 0;
+    width: 90%;
+    margin: 0 auto;
+    position: relative;
+    z-index: unset;
+  }
+
+  .tutorialCap {
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 20%;
+    padding-top: 90%;
+  }
+
+  .tutorialH3 {
+    font-size: 164%;
+  }
+
+  .tutorialP {
+    line-height: 160%;
+    width: unset;
+    color: rgb(205, 201, 197);
+    font-size: 92%;
+  }
+
+  .tutorialImgCon {
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 10%;
+    right: 7px;
+  }
+
+  .tutorialImg {
+    margin-left: 0;
+  }
+
+  .tutorialImg > img {
+    width: 80%;
+    height: 100%;
+  }
+
+  .tutorialImg2 {
+    margin-top: -10px;
+  }
+
+  .tutorialImg2 > img {
+    width: 65%;
+  }
+
+  .rightHrStick {
+    width: 20%;
+    transform: none;
+    top: 56%;
+    right: 45%;
+  }
+
+  .rightHrStick1 {
+    background-color: #f16b22;
+    padding: 1px;
+    border: none;
+    width: 20%;
+  }
+
+  .rightHrStick2 {
+    background-color: #110d0a2e;
+    padding: 1px;
+    border: none;
+    width: 20%;
+  }
+
+  .rightHrStick3 {
+    background-color: #110d0a2e;
+    padding: 1px;
+    border: none;
+    width: 20%;
+  }
+
+  .leftHrStick {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .tutorialH3 {
+    font-size: 160%;
+  }
+
+  .tutorialBody {
+    padding: 100px 0;
+  }
+
+  .tutorialP {
+    line-height: 23px;
+    font-size: 95%;
+  }
+
+  .tutorialImg > img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .tutorialImg {
+    height: 80%;
+    margin-left: 0;
+    width: 100%;
+    padding-top: 30px;
+  }
+
+  .leftHrStick {
+    width: fit-content;
+    position: absolute;
+    transform: rotate(-90deg);
+    font-size: 10px;
+    margin: 0;
+    letter-spacing: 2px;
+    left: -18%;
+    bottom: 33%;
+    color: rgb(205, 201, 197);
+  }
+
+  .rightHrStick {
+    right: -7%;
+  }
+}

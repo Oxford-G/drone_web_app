@@ -1,10 +1,10 @@
 import './Tutorials.css'
-import drone from './assets/Drone.png'
-import shadow from './assets/Shadow.png'
+import drone from '../assets/Drone.png'
+import shadow from '../assets/Shadow.png'
 
-const Tutorials = () => {
+const Tutorials = ({closeMenu}) => {
   return (
-    <div className="tutorialBody">
+    <div id="STORE" className="tutorialBody" onClick={closeMenu}>
       <p className="leftHrStick">
         F-210 PERFORMANCE RACING DRONE
       </p>

@@ -1,11 +1,11 @@
-import drone from './assets/Drone.png'
-import shadow from './assets/Shadow.png'
-import heroBody from './assets/whitelabel-f210.png'
+import drone from '../assets/Drone.png'
+import shadow from '../assets/Shadow.png'
+import heroBody from '../assets/whitelabel-f210.png'
 import './Home.css';
 
-const Home = () => {
+const Home = ({closeMenu}) => {
   return (
-    <div className="heroDiv">
+    <div id="HOME" className="heroDiv" onClick={closeMenu}>
       <div className="droneDiv">
         <img className="droneImg" src={drone} alt="drone" />
       </div>
