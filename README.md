@@ -19,6 +19,10 @@ This is a responsive web clone app, with a dynamic nav bar inline with White-Lab
 ## Mobile version:
 ![screenshot](./src/Components/assets/byrdmrMobile.png)
 
+## Live link
+
+[live link](https://incandescent-banoffee-ca0e3f.netlify.app/)
+
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
