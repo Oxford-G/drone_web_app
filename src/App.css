@@ -1,9 +1,12 @@
 .App {
-  /* position: relative; */
   background-color: #fff;
 }
 
 .mobileNav {
+  display: none;
+}
+
+.tabletNav {
   display: none;
 }
 
@@ -12,7 +15,25 @@
     display: none;
   }
 
+  .tabletNav {
+    display: none;
+  }
+
   .mobileNav {
+    display: block;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .mobileNav {
+    display: none;
+  }
+
+  .desktopNav {
+    display: none;
+  }
+
+  .tabletNav {
     display: block;
   }
 }
