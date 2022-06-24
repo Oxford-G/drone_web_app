@@ -1,9 +1,9 @@
 import {BsArrowRight} from 'react-icons/bs';
 import './Contact.css';
 
-const Contact = () => {
+const Contact = ({closeMenu}) => {
   return (
-    <div id="CONTACT" className="formCon">
+    <div id="CONTACT" className="formCon" onClick={closeMenu}>
       <form action='#'>
         <label htmlFor='fullname'>FULL NAME</label>
           <input type="text" id="full-name" placeholder="Enter your full name" required />

@@ -1,10 +1,7 @@
 .leftHrStick {
-  /* background-color: gold; */
   width: fit-content;
   position: absolute;
   transform: rotate(-90deg);
-  /* left: -150px;
-  bottom: 150px; */
   font-size: 10px;
   margin: 0;
   letter-spacing: 2px;
@@ -18,7 +15,6 @@
   width: 85%;
   margin: 0 auto;
   justify-content: center;
-  /* background-color: yellow; */
   height: 360px;
   padding: 140px 0;
   position: relative;
@@ -26,12 +22,10 @@
 }
 
 .tutorialCap {
-  /* background-color: bisque; */
   width: 40%;
 }
 
 .tutorialH3 {
-  /* background-color: blanchedalmond; */
   font-size: 40px;
   margin: 0;
   font-weight: 400;
@@ -49,7 +43,6 @@
 }
 
 .tutorialP {
-  /* background-color: royalblue; */
   line-height: 36px;
   width: 80%;
   color: rgb(205, 201, 197);
@@ -61,7 +54,6 @@
 }
 
 .tutorialImg {
-  /* background-color: aquamarine; */
   height: 98%;
   margin-left: 20px;
 }
@@ -121,7 +113,6 @@
   }
 
   .tutorialCap {
-    /* background-color: bisque; */
     width: 100%;
     margin-top: 0;
     margin-bottom: 20%;
@@ -129,21 +120,14 @@
   }
 
   .tutorialH3 {
-    font-size: 24px;
-    margin: 0;
-    font-weight: 400;
-  }
-
-  .tutorialH3Line {
-    width: 20%;
-    margin: -3px 0 0 0;
+    font-size: 164%;
   }
 
   .tutorialP {
-    line-height: 20px;
+    line-height: 160%;
     width: unset;
     color: rgb(205, 201, 197);
-    font-size: 14px;
+    font-size: 92%;
   }
 
   .tutorialImgCon {
@@ -155,8 +139,6 @@
   }
 
   .tutorialImg {
-    /* background-color: aquamarine; */
-    height: 98%;
     margin-left: 0;
   }
 
@@ -175,8 +157,6 @@
 
   .rightHrStick {
     width: 20%;
-    display: flex;
-    position: absolute;
     transform: none;
     top: 56%;
     right: 45%;
@@ -205,5 +185,48 @@
 
   .leftHrStick {
     display: none;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .tutorialH3 {
+    font-size: 160%;
+  }
+
+  .tutorialBody {
+    padding: 100px 0;
+  }
+
+  .tutorialP {
+    line-height: 23px;
+    font-size: 95%;
+  }
+
+  .tutorialImg > img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .tutorialImg {
+    height: 80%;
+    margin-left: 0;
+    width: 100%;
+    padding-top: 30px;
+  }
+
+  .leftHrStick {
+    width: fit-content;
+    position: absolute;
+    transform: rotate(-90deg);
+    font-size: 10px;
+    margin: 0;
+    letter-spacing: 2px;
+    left: -18%;
+    bottom: 33%;
+    color: rgb(205, 201, 197);
+  }
+
+  .rightHrStick {
+    right: -7%;
   }
 }

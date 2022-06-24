@@ -1,15 +1,11 @@
 
 .MtopNav {
-  /* background-color: rgb(241, 189, 110); */
   display: flex;
   justify-content: center;
   width: 90%;
   margin: 0 auto 0 auto;
-  /* background-color: rgb(244, 241, 237); */
   align-items: center;
   padding-top: 20px;
-  /* position: sticky;
-  top: 0; */
   position: relative;
 }
 
@@ -18,12 +14,8 @@
   justify-content: center;
   width: 95%;
   margin: 0 auto 0 auto;
-  /* background-color: rgb(244, 241, 237); */
   align-items: center;
   padding-top: 5px;
-  /* position: sticky;
-  top: 0; */
-  /* z-index: 1; */
   position: relative;
 }
 
@@ -59,7 +51,6 @@
   display: flex;
   justify-content: space-between;
   font-size: 16px;
-  /* background-color: red; */
   padding-left: 0;
 }
 
@@ -83,14 +74,6 @@
   width: 100%;
 }
 
-/* .MnavLi {
-  margin-right: 35px;
-} */
-
-/* .MnavLi2 {
-  margin-left: 35px;
-} */
-
 .MhideNav {
   display: none;
 }
@@ -103,7 +86,6 @@
 }
 
 .MhamLine1 {
-  /* width: 90%; */
   color: #f76e24;
 }
 
@@ -113,15 +95,8 @@
 }
 
 .MslidingNav {
-  /* background-color: greenyellow; */
   font-size: 80%;
-  /* display: flex; */
   position: absolute;
-  /* right: 5%; */
-  /* bottom: 5px; */
-  /* justify-content: space-around; */
-  /* width: 20%;
-  font-weight: 600; */
   top: 100%;
   width: 100%;
   margin: 0;
@@ -129,13 +104,9 @@
 }
 
 .MslidingDiv {
-  /* display: flex; */
-  /* justify-content: space-around; */
   list-style: none;
   width: 100%;
-  /* flex-direction: column; */
-  /* font-weight: 600; */
-  text-align: right;
+  text-align: left;
   background-color: #c8c4c0;
   margin: 0;
   padding: 0;
@@ -150,6 +121,6 @@
   color: #f76e24;
 }
 
-li {
+.li {
   padding: 3% 6%;
 }

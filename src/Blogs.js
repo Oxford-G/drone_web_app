@@ -2,10 +2,10 @@ import BlogImg from './assets/camera.png';
 import RemoteImg from './assets/Remote.png';
 import './Blogs.css';
 
-const Blogs = () => {
+const Blogs = ({closeMenu}) => {
   return (
     <>
-      <div id="TUTORIALS" className="blogsBody">
+      <div id="TUTORIALS" className="blogsBody" onClick={closeMenu}>
         <div className="blogsBody2">
           <p className="leftBrStick">
             F-210 PERFORMANCE RACING DRONE
