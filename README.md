@@ -1,6 +1,6 @@
 # Paddle-Frontend-Assessment
 
-This is a responsive web clone app, with a dynamic nav bar inline with White-Label-Collaborative assessment test project.
+This is a responsive web clone app with a dynamic nav bar inline with White-Label-Collaborative assessment test project.
 
 ## Built With
 
